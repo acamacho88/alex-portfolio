@@ -1,6 +1,6 @@
 const BusinessPoint = (props) => (
     <div className="container">
-        <i className="icon fas fa-tint"></i>
+        <i className="icon fas fa-code-branch"></i>
         <div className="text-container">
             <div className="title">{props.title}</div>
             <div className="description">{props.description}</div>        

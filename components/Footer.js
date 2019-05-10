@@ -1,14 +1,11 @@
 const Footer = () => (
     <div className="footer">
-        <div className="footer__inner"><i className="far fa-copyright"></i> 2019 Pure Plumbing Solutions. All rights reserved.</div>
+        <div className="footer__inner"><i className="far fa-copyright"></i> 2019 Alex Camacho. All rights reserved.</div>
         <div className="social_media_block">
-            <a className="social_media_icon" href="#">
-                <i className="fab fa-facebook-f"></i>
+            <a className="social_media_icon" href="https://github.com/acamacho88">
+                <i className="fab fa-github"></i>
             </a>
-            <a className="social_media_icon" href="#">
-                <i className="fab fa-instagram"></i>
-            </a>
-            <a className="social_media_icon" href="#">
+            <a className="social_media_icon" href="https://www.linkedin.com/in/alex-r-camacho/">
                 <i className="fab fa-linkedin-in"></i>
             </a>
         </div>

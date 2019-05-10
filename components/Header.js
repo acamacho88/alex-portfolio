@@ -4,19 +4,15 @@ const Header = () => (
     <div className="header">
         <div className="header__logo-bar">
             <div className="header__logo"></div>
-            <div className="header__phone">(510) 123-1234</div>
+            <div className="header__phone"><a href="mailto:alexander.r.camacho@gmail.com">alexander.r.camacho@gmail.com</a></div>
         </div>
         <div className="header__nav-bar">
                 <Link href="/">
                     <a className="nav-bar__item">Home</a>            
                 </Link>
                 <Link href="/about">
-                    <a className="nav-bar__item">About Us</a>            
-                </Link>
-                <a className="nav-bar__item nav-bar__item--dropdown">Services</a>            
-                <Link href="/contact">
-                    <a className="nav-bar__item">Contact Us</a>            
-                </Link>                                
+                    <a className="nav-bar__item">About Me</a>            
+                </Link>                           
         </div>
         <style jsx>{`
         @media (min-width: 320px) {
@@ -39,6 +35,7 @@ const Header = () => (
                 background-image: url("/static/logo.png");
                 background-size: contain;
                 background-repeat: no-repeat;
+                border-radius: 50%;
             }
 
             .header__phone {
@@ -49,6 +46,16 @@ const Header = () => (
                 font-size: 16px;	
                 font-weight: 500;	
                 line-height: 48px;
+            }
+
+            .header__phone a {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+
+            .header__phone a:hover {
+                color: #2E69A5;
+                transition: 0.3s;
             }
 
             .header__nav-bar {
@@ -93,12 +100,12 @@ const Header = () => (
             }
 
             .header__logo {
-                margin-left: 60px;
-                height: 48px;
-                width: 180px;
+                margin-left: 15px;
+                height: 90px;
                 background-image: url("/static/logo.png");
                 background-size: contain;
                 background-repeat: no-repeat;
+                border-radius: 50%;
             }
 
             .header__phone {
@@ -109,6 +116,16 @@ const Header = () => (
                 font-size: 24px;	
                 font-weight: 500;	
                 line-height: 48px;
+            }
+
+            .header__phone a {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+
+            .header__phone a:hover {
+                color: #2E69A5;
+                transition: 0.3s;
             }
 
             .header__nav-bar {
@@ -159,6 +176,7 @@ const Header = () => (
                 background-image: url("/static/logo.png");
                 background-size: contain;
                 background-repeat: no-repeat;
+                border-radius: 50%;
             }
 
             .header__phone {
@@ -169,6 +187,16 @@ const Header = () => (
                 font-size: 24px;	
                 font-weight: 500;	
                 line-height: 48px;
+            }
+
+            .header__phone a {
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+
+            .header__phone a:hover {
+                color: #2E69A5;
+                transition: 0.3s;
             }
 
             .header__nav-bar {

@@ -6,37 +6,32 @@ import BusinessPoint from '../components/BusinessPoint';
 const Index = () => (
     <Layout>
         <Head>
-            <title>Pure Plumbing Solutions</title>
+            <title>Alex Camacho's Portfolio</title>
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossOrigin="anonymous"></link>
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
         <div className="jumbotron">
-            <div className="cta-text">Pure Honesty, Solutions, and Satisfaction</div>
-            <button className="cta-button">Call to Action</button>
+            <a className="emailLink" href="mailto:alexander.r.camacho@gmail.com"><button className="cta-button">Contact Me</button></a>
         </div>
         <div className="helpCards">
-            <HowCanWeHelpCard destination="waterheater" ico="fire" title="Water Heater" items={["Installation","Repairs","Routine Maintenance","Products"]}/>
-            <HowCanWeHelpCard destination="seweranddrain" ico="wrench" title="Sewer & Drain" items={["Drain Cleaning","Sewer Repairs","Main Line Installation","Underfloor Drain Line Inspection"]}/>
-            <HowCanWeHelpCard destination="gas" ico="burn" title="Gas" items={["Pipe Installation","Leak Detection","Repairs","Appliance Hook Up"]}/>
-            <HowCanWeHelpCard destination="plumbingfixtures" ico="toilet" title="Plumbing Fixtures" items={["Installation & Repairs","Faucets","Toilets","Sinks","Showers"]}/>
-            <HowCanWeHelpCard destination="water" ico="tint" title="Water" items={["Pipe Installation","Leak Detection","Repairs","Emergency Shut Off","Pressure Reducing Valve"]}/>
-            <HowCanWeHelpCard destination="homeimprovementplan" ico="tasks" title="Home Improvement Plan" items={["Annual Maintenance Plan","Pure Satisfaction","Honesty","Solutions"]}/>
+            <HowCanWeHelpCard destination="https://acamacho88.github.io/Word-Guess-Game/" repo="https://github.com/acamacho88/Word-Guess-Game" siteDescr="Word Guess game" ico="keyboard" title="Smooth client experience" items={["Edge cases covered","Make use of latest HTML5 elements","Sites built to load as fast as possible"]}/>
+            <HowCanWeHelpCard destination="https://acamacho88.github.io/GifTastic/" repo="https://github.com/acamacho88/GifTastic" siteDescr="Gif generating" ico="server" title="Backend expertise" items={["API integration","Asynchronous loading","Node environments"]}/>
+            <HowCanWeHelpCard destination="https://acamacho88.github.io/TriviaGame/" repo="https://github.com/acamacho88/TriviaGame" siteDescr="Trivia game" ico="code" title="Use of common libraries and frameworks" items={["React","Bootstrap","jQuery"]}/>
+            <HowCanWeHelpCard destination="https://ucb-abba-project1.github.io/project/" repo="https://github.com/UCB-ABBA-Project1/project" siteDescr="Team-built Adopt-a-pet" ico="project-diagram" title="Excited by collaboration" items={["User of version control with Git","Team player","Ready to develop and troubleshoot together"]}/>
         </div>
         <div className="callUs">
-            <div className="callUsText">Call Us Today</div>
-            <div className="callUsPhone">(510) 123-1234</div>
         </div>
         <div className="business-points">
-            <div className="business-point__title">Pure Plumbing Solutions</div>
+            <div className="business-point__title">Stable, efficient solutions</div>
             <div className="business-points__bullets">
-                <BusinessPoint title="Local Plumber" description="Local to San Jose and serving most of the Silicon Valley" />
-                <BusinessPoint title="Honest" description="We will always give you an honest estimate that will not change!" />
-                <BusinessPoint title="$0 Solutions" description="We will always have a solution to your issue or there will be no charge to you!" />
+                <BusinessPoint title="Collaborative Player" description="Experienced working as part of a team both developing and troubleshooting" />
+                <BusinessPoint title="Strive for Order" description="Neatness and simplicity key factors in code creation" />
+                <BusinessPoint title="Frontend knowledge" description="Experience utilizing CSS, Bootstrap, jQuery, Handlebars" />
             </div>
             <div className="business-points__bullets">
-                <BusinessPoint title="Clean" description="We are best known for the clean and tidy job we do" />
-                <BusinessPoint title="On Time" description="We will always be on time within the hour window you are given" />
-                <BusinessPoint title="Free Quotes" description="No obligations, free quotes!" />            
+                <BusinessPoint title="Database integration" description="MySQL, Firebase, MongoDB, Sequelize" />
+                <BusinessPoint title="Rapid information consumer/gatherer" description="Learn quickly, incredibly efficient at researching information online" />
+                <BusinessPoint title="Experience on multiple platforms" description="Developed and debugged on all of the popular browsers and mobile devices" />            
             </div>
         </div>
         <style jsx>{`
@@ -47,7 +42,7 @@ const Index = () => (
                 justify-content: center;
                 width: 100%;
                 height: 430px;
-                background-color: #D8D8D8;
+                background-image: url("/static/codes-coding-developing-270623.jpg");
             }
 
             .cta-text {
@@ -147,7 +142,7 @@ const Index = () => (
                 justify-content: center;
                 width: 100%;
                 height: 430px;
-                background-color: #D8D8D8;
+                background-image: url("/static/codes-coding-developing-270623.jpg");
             }
 
             .cta-text {
@@ -160,9 +155,13 @@ const Index = () => (
                 line-height: 48px;
             }
 
-            .cta-button {
+            .emailLink {
+                width: 319px;
                 margin-top: 22px;
-                margin-left: 60px;	
+                margin-left: 60px;
+            }
+
+            .cta-button {                	
                 height: 75px;	
                 width: 319px;	
                 background-color: #2E69A5;
@@ -172,6 +171,7 @@ const Index = () => (
                 font-weight: 500;
                 line-height: 48px;
                 text-align: center;
+                cursor: pointer;
             }
 
             .helpCards {
@@ -212,7 +212,7 @@ const Index = () => (
 
             .callUs {
                 background-color: black;
-                height: 128px;
+                height: 15px;
                 font-size: 30px;
                 color: #FFFFFF;
                 display: flex;
@@ -237,7 +237,7 @@ const Index = () => (
                 justify-content: center;
                 width: 100%;
                 height: 690px;
-                background-color: #D8D8D8;
+                background-image: url("/static/codes-coding-developing-270623.jpg");
             }
 
             .cta-text {
