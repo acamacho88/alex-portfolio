@@ -20,7 +20,7 @@ const About = () => (
 
                 <p>I've been able to apply these skills and continue learning at my current position, finding new ways to troubleshoot problems that arise and making sure to pass on any techniques that make problem solving more efficient to my teammates.</p>
 
-                <p>I'm passionate about rock, hip-hop, and jazz music as well as playing guitar in my spare time. I also enjoy comedy, history, astronomy and astrophysics, reading, and other typically nerdy avenues.</p>
+                <p>I'm passionate about rock, hip-hop, and jazz music as well as playing guitar in my spare time. I also enjoy comedy, history, astronomy and astrophysics, reading, and other typically nerdy ventures.</p>
             </div>
         </div>
         <style jsx>{`
