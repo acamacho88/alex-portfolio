@@ -188,7 +188,7 @@ const Index = () => (
             }
 
             .business-points {
-                padding-bottom: 40px;
+                padding-bottom: 70px;
                 width: 100%;
                 background-color: #D8D8D8;
             }
