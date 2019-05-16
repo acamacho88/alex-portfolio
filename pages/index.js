@@ -31,7 +31,7 @@ const Index = () => (
             <div className="business-points__bullets">
                 <BusinessPoint title="Database integration" description="MySQL, Firebase, MongoDB, Sequelize" />
                 <BusinessPoint title="Rapid information consumer/gatherer" description="Learn quickly, incredibly efficient at researching information online" />
-                <BusinessPoint title="Experience on multiple platforms" description="Developed and debugged on all of the popular browsers and mobile devices" />            
+                <BusinessPoint title="Experience on multiple platforms" description="Developed and debugged on FF, Chrome, IE, and Safari as well as Androids and iPhones" />            
             </div>
         </div>
         <style jsx>{`
