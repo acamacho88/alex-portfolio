@@ -172,6 +172,14 @@ const Index = () => (
                 line-height: 48px;
                 text-align: center;
                 cursor: pointer;
+                border-style: none;
+                border-radius: 5px;
+                -webkit-transition-duration: .5s;
+                transition-duration: .5s;
+            }
+
+            .cta-button:hover {
+                box-shadow: 0px 0px 10px 8px;
             }
 
             .helpCards {
