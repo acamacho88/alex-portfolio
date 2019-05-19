@@ -171,8 +171,8 @@ const Header = () => (
 
             .header__logo {
                 margin-left: 112px;
-                height: 48px;
-                width: 180px;
+                height: 90px;
+                width: 90px;
                 background-image: url("/static/logo.png");
                 background-size: contain;
                 background-repeat: no-repeat;
