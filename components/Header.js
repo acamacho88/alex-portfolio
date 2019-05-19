@@ -40,8 +40,8 @@ const Header = () => (
 
             .header__logo {
                 margin-left: 12px;
-                height: 24px;
-                width: 90px;
+                height: 40px;
+                width: 40px;
                 background-image: url("/static/logo.png");
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -95,7 +95,7 @@ const Header = () => (
                 cursor: pointer; 
             }
 
-            .fab {
+            .fab, .far {
                 margin: 10px;
                 -webkit-transition: all 0.5s;
                 transition: all 0.5s;
