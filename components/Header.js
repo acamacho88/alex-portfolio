@@ -170,7 +170,7 @@ const Header = () => (
             }
 
             .header__logo {
-                margin-left: 112px;
+                margin-left: 10px;
                 height: 90px;
                 width: 90px;
                 background-image: url("/static/logo.png");
