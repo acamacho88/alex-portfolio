@@ -5,7 +5,7 @@ const Footer = () => (
         @media (min-width: 320px) {
             .footer {
                 background-color: #212222;
-                height: 175px;
+                height: 100px;
                 width: 100%;
                 display: flex;
                 flex-direction: row;
@@ -19,7 +19,7 @@ const Footer = () => (
                 font-family: "Avenir Next";
                 line-height: 25px;
                 font-weight: 500;
-                width: 40%;
+                width: 100%;
                 margin-left: 12px;
                 margin-top: 30px;
             }

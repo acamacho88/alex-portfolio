@@ -1,8 +1,14 @@
 import Header from '../components/Header';
 import Layout from '../components/Layout';
+import Head from 'next/head';
 
 const About = () => (
     <Layout>
+        <Head>
+            <title>Alex Camacho's Portfolio</title>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossOrigin="anonymous"></link>
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        </Head>
         <div className="aboutContent">
             <div className="title">Bio</div>
             <div className="aboutText">
@@ -25,7 +31,23 @@ const About = () => (
         </div>
         <style jsx>{`
         @media (min-width: 320px) and (max-width: 1023px) {
-            
+            .aboutContent {
+                margin: 20px 60px 20px 5px;
+            }
+
+            .aboutText {
+                margin-left: 5px;
+            }
+
+            .title {
+                font-size: 25px;
+            }
+
+            .bioPic {
+                float: left;
+                height: 500px;
+                margin: 0px 20px 20px 0px;
+            }
         }
         
         @media (min-width: 1024px) {
