@@ -4,7 +4,17 @@ const Header = () => (
     <div className="header">
         <div className="header__logo-bar">
             <div className="header__logo"></div>
-            <div className="header__phone"><a href="mailto:alexander.r.camacho@gmail.com">alexander.r.camacho@gmail.com</a></div>
+            <div className="social_media_block">
+                <a className="social_media_icon" href="mailto:alexander.r.camacho@gmail.com">
+                    <i className="far fa-envelope"></i>
+                </a>
+                <a className="social_media_icon" href="https://github.com/acamacho88">
+                    <i className="fab fa-github"></i>
+                </a>
+                <a className="social_media_icon" href="https://www.linkedin.com/in/alex-r-camacho/">
+                    <i className="fab fa-linkedin-in"></i>
+                </a>
+            </div>
         </div>
         <div className="header__nav-bar">
                 <Link href="/">
@@ -38,7 +48,7 @@ const Header = () => (
                 border-radius: 50%;
             }
 
-            .header__phone {
+            .social_media_block {
                 margin-right: 12px;
                 height: 48px;
                 color: #FFFFFF;	
@@ -48,12 +58,12 @@ const Header = () => (
                 line-height: 48px;
             }
 
-            .header__phone a {
+            .social_media_block a {
                 text-decoration: none;
                 color: #FFFFFF;
             }
 
-            .header__phone a:hover {
+            .social_media_block a:hover {
                 color: #2E69A5;
                 transition: 0.3s;
             }
@@ -84,6 +94,18 @@ const Header = () => (
             .nav-bar__item--dropdown {
                 cursor: pointer; 
             }
+
+            .fab {
+                margin: 10px;
+                -webkit-transition: all 0.5s;
+                transition: all 0.5s;
+                color: #777;
+                font-size: 30px;
+            }
+
+            .fab:hover {
+                color: #2E69A5;
+            }
         }
 
         @media (min-width: 1024px) {
@@ -108,7 +130,7 @@ const Header = () => (
                 border-radius: 50%;
             }
 
-            .header__phone {
+            .social_media_block {
                 margin-right: 60px;
                 height: 48px;
                 color: #FFFFFF;	
@@ -118,12 +140,12 @@ const Header = () => (
                 line-height: 48px;
             }
 
-            .header__phone a {
+            .social_media_block a {
                 text-decoration: none;
                 color: #FFFFFF;
             }
 
-            .header__phone a:hover {
+            .social_media_block a:hover {
                 color: #2E69A5;
                 transition: 0.3s;
             }
@@ -153,6 +175,18 @@ const Header = () => (
 
             .nav-bar__item--dropdown {
                 cursor: pointer; 
+            }
+
+            .fab, .far {
+                margin: 10px;
+                -webkit-transition: all 0.5s;
+                transition: all 0.5s;
+                color: #777;
+                font-size: 30px;
+            }
+
+            .fab:hover, .far:hover {
+                color: #2E69A5;
             }
         }
         
@@ -179,7 +213,7 @@ const Header = () => (
                 border-radius: 50%;
             }
 
-            .header__phone {
+            .social_media_block {
                 margin-right: 112px;
                 height: 48px;
                 color: #FFFFFF;	
@@ -189,12 +223,12 @@ const Header = () => (
                 line-height: 48px;
             }
 
-            .header__phone a {
+            .social_media_block a {
                 text-decoration: none;
                 color: #FFFFFF;
             }
 
-            .header__phone a:hover {
+            .social_media_block a:hover {
                 color: #2E69A5;
                 transition: 0.3s;
             }
@@ -224,6 +258,18 @@ const Header = () => (
 
             .nav-bar__item--dropdown {
                 cursor: pointer; 
+            }
+
+            .fab {
+                margin: 10px;
+                -webkit-transition: all 0.5s;
+                transition: all 0.5s;
+                color: #777;
+                font-size: 30px;
+            }
+
+            .fab:hover {
+                color: #2E69A5;
             }
         }
         `}</style>

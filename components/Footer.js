@@ -1,17 +1,6 @@
 const Footer = () => (
     <div className="footer">
         <div className="footer__inner"><i className="far fa-copyright"></i> 2019 Alex Camacho. All rights reserved.</div>
-        <div className="social_media_block">
-            <a className="social_media_icon" href="mailto:alexander.r.camacho@gmail.com">
-                <i className="far fa-envelope"></i>
-            </a>
-            <a className="social_media_icon" href="https://github.com/acamacho88">
-                <i className="fab fa-github"></i>
-            </a>
-            <a className="social_media_icon" href="https://www.linkedin.com/in/alex-r-camacho/">
-                <i className="fab fa-linkedin-in"></i>
-            </a>
-        </div>
         <style jsx>{`
         @media (min-width: 320px) {
             .footer {
@@ -39,18 +28,6 @@ const Footer = () => (
                 text-align: right;
                 margin-right: 12px;
                 margin-top: 54px;
-            }
-
-            .fab {
-                margin: 10px;
-                -webkit-transition: all 0.5s;
-                transition: all 0.5s;
-                color: #777;
-                font-size: 30px;
-            }
-
-            .fab:hover {
-                color: #2E69A5;
             }
         }
 
@@ -82,17 +59,7 @@ const Footer = () => (
                 margin-top: 30px;
             }
 
-            .fab, .far {
-                margin: 10px;
-                -webkit-transition: all 0.5s;
-                transition: all 0.5s;
-                color: #777;
-                font-size: 30px;
-            }
-
-            .fab:hover, .far:hover {
-                color: #2E69A5;
-            }
+            
         }
         
         @media (min-width: 1440px) {
@@ -123,17 +90,6 @@ const Footer = () => (
                 margin-top: 30px;
             }
 
-            .fab {
-                margin: 10px;
-                -webkit-transition: all 0.5s;
-                transition: all 0.5s;
-                color: #777;
-                font-size: 30px;
-            }
-
-            .fab:hover {
-                color: #2E69A5;
-            }
         }
         `
         }</style>
