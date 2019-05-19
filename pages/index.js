@@ -55,7 +55,9 @@ const Index = () => (
             }
 
             .cta-button {
-                margin: 25px auto;
+                position: absolute;
+                left: 50%;
+                margin-left: -120px;
                 height: 75px;	
                 width: 240px;	
                 background-color: #2E69A5;
@@ -65,6 +67,8 @@ const Index = () => (
                 font-weight: 500;
                 line-height: 48px;
                 text-align: center;
+                border-style: none;
+                border-radius: 5px;
             }
 
             .helpCards {
