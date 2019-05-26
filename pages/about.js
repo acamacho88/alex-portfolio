@@ -13,20 +13,11 @@ const About = () => (
             <div className="title">Bio</div>
             <div className="aboutText">
                 <img className="bioPic" src="/static/alex-guitar.png" />
-                <p>I have worked at a tech startup the last five years and made use of existing web development knowledge I already had and greatly expanded it during this time.</p>
+                <p>For the last five years, I’ve worked in a tech startup where I’ve worn many hats, ranging from Professional Services to training to Tier 3 Support. I’ve continued to expand my knowledge of web development and currently act as a liaison between our development team and our most prominent clients. I find great enjoyment in identifying new, unique ways to trouble-shoot challenging problems within the product and with our customers. I actively seek out the newest technology and share the learnings with my colleagues.</p>
 
-                <p>In my current job and my side projects, I take great enjoyment in finding new ways to solve problems, and approach issues from a different angle.
-                    I'm always excited to learn about new technologies, fill gaps in my existing knowledge, and pass the information I've gained onto team members knowing that as all of us grow stronger, the team and product get stronger as well.
-                </p>
+                <p>Recognizing my passion and appreciation for coding, I began taking classes through Udacity, where I learned more about fullstack – leading me to complete a fullstack bootcamp at UC Berkeley Extension. As a program participant, I was able to pair my work experience with my previous online learning to create two fully functioning websites, in collaboration with fellow program participants, over the course of the certificate program.</p>
 
-                <p>I graduated from the Massachusetts Institute of Technology with a Bachelors of Science in Physics, and had great fun with the marriage of hard, empirical data along with analytical/programmatic ways of analyzing them, and seeing how they fit into broader theories.</p>
-                
-                <p>In addition, during my time over the last five years, I've enrolled in courses to go through official fullstack learning materials, including Udacity Fullstack Nanodegree and UC Berkeley Extension fullstack bootcamp.
-                     I learned a great deal working on the assignments and building applications in group projects where we would develop a concept of the site, plan out the responsibilities, and launch the app in two weeks' time.</p>
-
-                <p>I've been able to apply these skills and continue learning at my current position, finding new ways to troubleshoot problems that arise and making sure to pass on any techniques that make problem solving more efficient to my teammates.</p>
-
-                <p>I'm passionate about rock, hip-hop, and jazz music as well as playing guitar in my spare time. I also enjoy comedy, history, astronomy and astrophysics, reading, and other typically nerdy ventures.</p>
+                <p>In my spare time, I enjoy playing guitar, listening to and analyzing music from all genres, and reading. Additional nerdy ventures include obsessing over the First World War and listening to old Monty Python routines. A graduate of the Massachusetts Institute of Technology with a Bachelors of Science in Physics, I still find great pleasure in tracking the newest discoveries in the astrophysics and astronomy fields.</p>
             </div>
         </div>
         <style jsx>{`
