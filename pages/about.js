@@ -17,7 +17,9 @@ const About = () => (
 
                 <p>Recognizing my passion and appreciation for coding, I began taking classes through Udacity, where I learned more about fullstack – leading me to complete a fullstack bootcamp at UC Berkeley Extension. As a program participant, I was able to pair my work experience with my previous online learning to create two fully functioning websites, in collaboration with fellow program participants, over the course of the certificate program.</p>
 
-                <p>In my spare time, I enjoy playing guitar, listening to and analyzing music from all genres, and reading. Additional nerdy ventures include obsessing over the First World War and listening to old Monty Python routines. A graduate of the Massachusetts Institute of Technology with a Bachelors of Science in Physics, I still find great pleasure in tracking the newest discoveries in the astrophysics and astronomy fields.</p>
+                <p>As an expat from New Jersey and the northeast, I've become enamored with the San Francisco bay area's climate, museums, and other points of interest, and when I'm not relaxing at home, I like to go out and explore a part of the bay I haven't been to before.</p>
+
+                <p>In my spare time, I take care of my rescue dog, enjoy playing guitar, listening to and analyzing music from all genres, and reading. I also find time to obsess over the First World War, listen to old Monty Python routines, and take part in other nerdy ventures. A graduate of the Massachusetts Institute of Technology with a Bachelors of Science in Physics, I still find great pleasure in tracking the newest discoveries in the astrophysics and astronomy fields.</p>
             </div>
         </div>
         <style jsx>{`
